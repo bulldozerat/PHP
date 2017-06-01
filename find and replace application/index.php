@@ -22,7 +22,7 @@ if (isset($_POST["search"]) && isset($_POST["replace"]) && isset($_POST["user_te
     <script src="js.js"></script>
 </head>
 <body>
-<form action="index.php" method="POST">
+<form action="index.php" method="post">
     <textarea name="user_text" id="" cols="30" rows="10">
         <?php if(isset($user_text)){
             echo $user_text;
