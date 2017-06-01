@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica', 'Verdana', sans-serif;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+#main {
+    width: 500px;
+    height: 250px;
+    margin: 50px auto;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px skyblue;
+}
+
+.currency-wrapper,
+.result-wrapper {
+    margin: 10px;
+}
+
+.currency-wrapper {
+    padding-top: 30px;
+}
+
+.currency-wrapper h1 {
+    text-align: center;
+}
+
+.result-wrapper label {
+    padding-right: 20px;
+
+}
+
+.currency-wrapper span{
+    font-size: 1.4em;
+}
+
+#amount {
+    width: 10%;
+}
+
+#total-amount {
+    width: 20%;
+}
+
+
+input[type = 'submit'] {
+    margin-right: 71px;
+    border: 1px solid white;
+    background-color: aliceblue;
+    color: black;
+}
+
+.error {
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+}
+
