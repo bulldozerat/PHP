@@ -18,7 +18,7 @@ if (isset($_GET["user_text"]) && !empty($_GET["user_text"])) {
     <script src="js.js"></script>
 </head>
 <body>
-<form action="index.php" method="GET">
+<form action="index.php" method="get">
     <textarea name="user_text" id="" cols="30" rows="10"></textarea>
     <input type="submit" value="submit">
 </form>
