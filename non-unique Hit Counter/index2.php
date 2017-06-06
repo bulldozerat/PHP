@@ -1,11 +1,9 @@
 <?php
 function hit_counter(){
     $file = 'second.php';
-    $handle = fopen($file, 'r');
-    $num = fread($handle, filesize($file));
-    fclose($handle);
+    $num = file($file);
 
-    $current_inc = $num + 1;
+    $current_inc = $num[0] + 1;
 
     $handle = fopen($file, 'w');
     fwrite($handle, $current_inc);
