@@ -17,7 +17,6 @@ if (isset($_POST['username']) && isset($_POST['password'])){
                 echo 'Invalid username or password';
             }else{
                 if(password_verify($password, $hash)) {
-                    echo $hash;
                     $user_id = mysqli_fetch_assoc($query_run);
                     $_SESSION['user_id'] = $user_id;
                     header('Location: index.php');
